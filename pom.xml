@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rk</groupId>
-	<artifactId>ecomm-order-service</artifactId>
+	<artifactId>ecomm-product-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ecomm-order-service</name>
-	<description>Demo project for Spring Boot Multiple datasource</description>
+	<name>ecomm-product-service</name>
+	<description>Demo project for Spring Boot product service</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -24,6 +24,16 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>3.0.0</version>
 		</dependency>
 
 		<dependency>
